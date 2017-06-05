@@ -6,7 +6,7 @@ var tiempo=setInterval(function(){
 
 	$('#btnAnt').click(function()
 	{
-		var size = $('.carousel-list').find('.carousel-imagen').size();
+		var size = $('.carousel-list').find('.carousel-imagen').length;
 		$('.carousel-list').find('.carousel-imagen').each(
 			function(index,value){
 				if($(value).hasClass('visible'))
@@ -31,7 +31,7 @@ var tiempo=setInterval(function(){
 	});
 	$('#btnSig').click(function()
 	{
-		var size = $('.carousel-list').find('.carousel-imagen').size();
+		var size = $('.carousel-list').find('.carousel-imagen').length;
 		$('.carousel-list').find('.carousel-imagen').each(
 			function(index,value){
 				if($(value).hasClass('visible'))
@@ -59,7 +59,7 @@ var tiempo=setInterval(function(){
 
 function avanzar()
 {
-	var size = $('.carousel-list').find('.carousel-imagen').size();
+	var size = $('.carousel-list').find('.carousel-imagen').length;
 		$('.carousel-list').find('.carousel-imagen').each(
 			function(index,value){
 				if($(value).hasClass('visible'))
