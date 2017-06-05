@@ -32,7 +32,7 @@ ul{
   display: none;
 }
 
-.carousel-list li.first-img{
+.carousel-list li.visible{
   display: block;
 }
 
